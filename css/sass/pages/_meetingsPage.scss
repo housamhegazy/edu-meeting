@@ -1,0 +1,112 @@
+.meetings{
+    background-image: url(./../../../images/facts-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 70vh;
+    padding: 150px 0 0 0;
+    .container{
+        height: 100%;
+        .content {
+            font-family: 'Courier New', Courier, monospace;
+                color: $white;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                h1{
+                    color:$warning;
+                    @media(max-width: 767px) {
+                            font-size: 25px;
+                        }
+                }
+            }
+    }
+}
+.courses{
+    padding: 40px 0;
+    background-image: url(../../../images/meetings-bg.jpg);
+    background-attachment: fixed;
+    .list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:30px;
+        @media(max-width: 767px) {
+           flex-wrap: wrap;
+        }
+        li{
+            cursor: pointer;
+            text-align: center;
+        }
+    }
+    .courses-content{
+        padding: 0 40px;
+        display: flex;
+        flex-wrap: wrap;
+        gap:40px;
+        justify-content: center;
+        overflow: hidden;
+        @media(max-width:767px) {
+                padding: 0 10px;
+            }
+        .box{
+            overflow: hidden;
+            width:calc(100% / 3 - 40px);
+            cursor: pointer;
+            margin: 20px 0 ;
+            border-radius: 10px;
+            background-color: $white;
+            animation: flash .5s linear;
+            &.animate{
+                @include animation;
+            }
+            @media(max-width:991px){
+                width: calc(50% - 40px);
+                    flex: 0 0 auto;
+            }
+            @media(max-width:767px){
+                width: calc(100%);
+                    flex: 0 0 auto;
+            }
+            .image{
+                position: relative;
+                .price{
+                    position: absolute;
+                    top:10px;
+                    left:10px;
+                    background-color: $white;
+                    padding: 5px 10px;
+                    border-radius: 5px;
+                    font-weight: bold;
+                }
+            }
+            .lecture-body{
+                display: flex;
+                gap:10px;
+                padding: 10px;
+                .date{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    span{
+                        font-weight: 700;
+                        padding:5px 0;
+                        &.month{
+                            color:$danger;
+                        }
+                        &.day{
+                            font-size: 20px;
+                        }
+                    }
+                }
+                .info{
+                    p{
+                        color:black
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,71 @@
+.btn{
+    min-width: 100px;
+    border-radius: 10px;
+    background-color: $danger;
+    padding: 10px;
+    display: inline-block;
+    color:$white;
+    
+}
+
+.arrow{
+    position: absolute;
+    height:100%;
+    width:100px;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:$warning;
+    font-size: 40px;
+    cursor: pointer;
+    
+}
+.left{
+    left:0px;
+        background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+}
+.right{
+    right:0px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+}
+
+.disable{
+    pointer-events: none;
+    opacity:.5;
+}
+.pullets{
+    height:30px;
+    list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    li{
+        width:20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: white;
+        margin-left:10px;
+        cursor: pointer;
+        transition: $transition;
+        &.active{
+            width:30px;
+            height:30px;
+            border: 3px solid $dark;
+            background-color: $warning
+        }
+    }
+}
+
+.courses-slider{
+    text-align: center;
+}
+.courses-slider .fa-chevron-left{
+    cursor: pointer;
+    color: $warning;
+    
+}
+.courses-slider .fa-chevron-right{
+    cursor: pointer;
+    color: $warning
+}

@@ -1,0 +1,13 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: 2px solid $info-dark;
+    
+    h2{
+        color:$white;
+        padding: 10px 0;
+        text-transform: uppercase;
+    }
+}
