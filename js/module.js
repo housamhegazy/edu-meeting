@@ -5,9 +5,9 @@ let toggleBtn = document.querySelector(".toggle");
 let pageList = document.querySelector(".navbar .page-list");
 let smList = document.querySelector(".navbar .page-list .sm-list");
 
-pageList.addEventListener("click",()=>{
-    smList.classList.toggle("open")
-})
+pageList.addEventListener("click", () => {
+  smList.classList.toggle("open");
+});
 
 function navbarFun() {
   toggleBtn.onclick = function () {
@@ -18,8 +18,8 @@ function navbarFun() {
     if (navbar.classList.contains("open")) {
       navbar.classList.remove("open");
     }
-    if(smList.classList.contains("open")){
-        smList.classList.remove("open");
+    if (smList.classList.contains("open")) {
+      smList.classList.remove("open");
     }
   });
 }

@@ -176,49 +176,49 @@ let boxContainer = document.querySelector(".courses-slider .boxes");
 let pulletsContainer = document.querySelector(".pullets");
 let boxes = [
   {
-    imgUrl: "../images/course-01.jpg",
+    imgUrl: "images/course-01.jpg",
     title: "Lorem ipsum dolor sit amet",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quidem est ",
     price: "$200",
   },
   {
-    imgUrl: "../images/course-02.jpg",
+    imgUrl: "images/course-02.jpg",
     title: "Lorem ipsum dolor sit amet",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quidem est ",
     price: "$200",
   },
   {
-    imgUrl: "../images/course-03.jpg",
+    imgUrl: "images/course-03.jpg",
     title: "Lorem ipsum dolor sit amet",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quidem est ",
     price: "$200",
   },
   {
-    imgUrl: "../images/course-04.jpg",
+    imgUrl: "images/course-04.jpg",
     title: "Lorem ipsum dolor sit amet",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quidem est ",
     price: "$200",
   },
   {
-    imgUrl: "../images/course-01.jpg",
+    imgUrl: "images/course-01.jpg",
     title: "Lorem ipsum dolor sit amet",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quidem est ",
     price: "$200",
   },
   {
-    imgUrl: "../images/course-02.jpg",
+    imgUrl: "images/course-02.jpg",
     title: "Lorem ipsum dolor sit amet",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quidem est ",
     price: "$200",
   },
   {
-    imgUrl: "../images/course-03.jpg",
+    imgUrl: "images/course-03.jpg",
     title: "Lorem ipsum dolor sit amet",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quidem est ",
     price: "$200",
   },
   {
-    imgUrl: "../images/course-04.jpg",
+    imgUrl: "images/course-04.jpg",
     title: "Lorem ipsum dolor sit amet",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quidem est ",
     price: "$200",
