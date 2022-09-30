@@ -23,7 +23,7 @@ function navbarFun() {
       smList.classList.remove("open");
     }
      let header = document.querySelector(".landing .header");
-     if (window.scrollY >= 800) {
+     if (window.scrollY >= 600) {
        header.classList.add("fixed");
      }else{
       header.classList.remove("fixed");
