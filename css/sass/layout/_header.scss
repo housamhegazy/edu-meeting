@@ -12,13 +12,41 @@
     min-height: 100%;
 }
 .header{
-    position: fixed;
+    position: absolute;
     width: 100%;
     background-color: $background-trans;
     z-index: 1000;
     @media(max-width:991px){
         position: fixed;
         z-index: 1000;
+    }
+    &.fixed{
+        position: fixed;
+        background-color: $white;
+        .header-content{
+            .logo{
+                color: $dark;
+                h2{
+                    color:$dark;
+                }
+            }
+            .navbar{
+                .list{
+                     li{
+                        a{
+                            color:$dark;
+                        }
+                        &.page-list .icon{
+                            color:$dark;
+                            i{
+                                color:$dark;
+                            }
+                        }
+                     }
+                     
+                }
+            }
+        }
     }
     .header-content {
             position: relative;

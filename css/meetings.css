@@ -137,7 +137,7 @@ h4 {
   min-height: 100%; }
 
 .header {
-  position: fixed;
+  position: absolute;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.616);
   z-index: 1000; }
@@ -145,6 +145,19 @@ h4 {
     .header {
       position: fixed;
       z-index: 1000; } }
+  .header.fixed {
+    position: fixed;
+    background-color: #fff; }
+    .header.fixed .header-content .logo {
+      color: #363949; }
+      .header.fixed .header-content .logo h2 {
+        color: #363949; }
+    .header.fixed .header-content .navbar .list li a {
+      color: #363949; }
+    .header.fixed .header-content .navbar .list li.page-list .icon {
+      color: #363949; }
+      .header.fixed .header-content .navbar .list li.page-list .icon i {
+        color: #363949; }
   .header .header-content {
     position: relative;
     display: flex;

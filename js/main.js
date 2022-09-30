@@ -3,6 +3,7 @@
 import { navbar, toggleBtn, navbarFun, yearEle, date } from "./module.js";
 
 
+
 //add products to page
 let products = [
   {

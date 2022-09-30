@@ -5,7 +5,8 @@ let toggleBtn = document.querySelector(".toggle");
 let pageList = document.querySelector(".navbar .page-list");
 let smList = document.querySelector(".navbar .page-list .sm-list");
 
-pageList.addEventListener("click", () => {
+pageList.addEventListener("click", (e) => {
+  e.preventDefault();
   smList.classList.toggle("open");
 });
 
@@ -21,6 +22,12 @@ function navbarFun() {
     if (smList.classList.contains("open")) {
       smList.classList.remove("open");
     }
+     let header = document.querySelector(".landing .header");
+     if (window.scrollY >= 800) {
+       header.classList.add("fixed");
+     }else{
+      header.classList.remove("fixed");
+     }
   });
 }
 
