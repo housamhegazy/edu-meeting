@@ -524,7 +524,7 @@ footer {
 
 /* line 1, sass/pages/_home.scss */
 .meeting {
-  background-image: url("../../../images/meetings-page-bg.jpg");
+  background-image: url(../../../images/meetings-page-bg.jpg);
   background-attachment: fixed;
   padding: 230px 0 100px 0;
 }
@@ -672,7 +672,7 @@ footer {
 /* line 120, sass/pages/_home.scss */
 .applying {
   padding: 40px 0;
-  background-image: url("../../../images/apply-bg.jpg");
+  background-image: url(../../../images/apply-bg.jpg);
   background-attachment: fixed;
 }
 /* line 124, sass/pages/_home.scss */
@@ -771,7 +771,7 @@ footer {
 
 /* line 200, sass/pages/_home.scss */
 .courses {
-  background-image: url("../../../images/heading-bg.jpg");
+  background-image: url(../../../images/heading-bg.jpg);
   background-attachment: fixed;
   background-size: cover;
   padding: 40px 0;
