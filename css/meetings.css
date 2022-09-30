@@ -294,7 +294,7 @@ h4 {
       flex: 0 0 auto;
       width: 250px;
       padding: 10px;
-      background-image: url(../../../images/service-item-bg.jpg);
+      background-image: url(../images/service-item-bg.jpg);
       text-align: center;
       border-radius: 10px; }
       @media (max-width: 991px) {
@@ -335,14 +335,14 @@ h4 {
 
 footer {
   padding: 40px 0;
-  background-image: url(../../../images/meetings-bg.jpg);
+  background-image: url(../images/meetings-bg.jpg);
   background-attachment: fixed;
   border-top: 1px solid #677483;
   text-align: center;
   color: #fff; }
 
 .meetings {
-  background-image: url(../../../images/meetings-bg.jpg);
+  background-image: url(../images/meetings-bg.jpg);
   background-attachment: fixed;
   background-size: cover;
   height: 70vh;
@@ -365,7 +365,7 @@ footer {
 
 .courses {
   padding: 40px 0;
-  background-image: url(../../../images/meetings-bg.jpg);
+  background-image: url(../images/meetings-bg.jpg);
   background-attachment: fixed; }
   .courses .list {
     display: flex;
