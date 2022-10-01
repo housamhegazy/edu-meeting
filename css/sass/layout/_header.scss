@@ -17,7 +17,6 @@
     background-color: $background-trans;
     z-index: 1000;
     @media(max-width:991px){
-        position: fixed;
         z-index: 1000;
     }
     &.fixed{
@@ -25,22 +24,43 @@
         background-color: $white;
         .header-content{
             .logo{
-                color: $dark;
+                
                 h2{
                     color:$dark;
+                }
+            }
+            .toggle{
+                i{
+                    color: $dark
                 }
             }
             .navbar{
                 .list{
                      li{
+                        color: $dark;
+                        @media(max-width:991px) {
+                                color: white;
+                            }
                         a{
                             color:$dark;
-                        }
-                        &.page-list .icon{
-                            color:$dark;
-                            i{
-                                color:$dark;
+                            @media(max-width:991px){
+                                color:white;
                             }
+                        }
+                        &.page-list {
+                            color:$dark;
+                            @media(max-width:991px) {
+                                    color: white;
+                                }
+                            .icon {
+                                    color: $dark;
+                                    i {
+                                        color: $dark;
+                                        @media(max-width:991px) {
+                                            color: white;
+                                        }
+                                    }
+                                }
                         }
                      }
                      
@@ -82,7 +102,6 @@
                         flex-direction: column;
                     }
                     li {
-                        transition: $transition;
                         @media(max-width:991px){
                             padding:0 20px;
                             &:not(:last-child){
@@ -107,11 +126,22 @@
                         }
                     
                         &.page-list {
+                            &:hover{
+                                color:$warning
+                            }
+                            font-size: 18px;
+                            padding: 20px 10px;
+                            color:$white;
+                            cursor:pointer;
                             position: relative;
+                            @media(max-width:991px){
+                                padding: 20px 20px;
+                            }
+                            
                             .icon {
                                     position: absolute;
                                     right: 50%;
-                                    bottom: -20PX;
+                                    bottom: -10PX;
                                     @media(max-width:991px){
                                         right: 50%;
                                         bottom: 10px;
@@ -123,9 +153,8 @@
                     
                             .sm-list {
                                 position: absolute;
-                                top: 30px;
+                                top: 50px;
                                 left: 10px;
-                               
                                 background-color: $white;
                                 display: flex;
                                 flex-direction: column;

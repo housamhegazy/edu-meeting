@@ -6,7 +6,6 @@ let pageList = document.querySelector(".navbar .page-list");
 let smList = document.querySelector(".navbar .page-list .sm-list");
 
 pageList.addEventListener("click", (e) => {
-  e.preventDefault();
   smList.classList.toggle("open");
 });
 
